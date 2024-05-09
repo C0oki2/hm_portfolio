@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+    </style>
+
+</head>
+<body>
+
+    <div id="menu">
+  
+        <h1>HM's Portfolio</h1>
+    
+        <ul>  
+          <li><a href="#section1">menu1</a></li>  
+          <li><a href="#section2">menu2</a></li>  
+          <li><a href="#section3">menu3</a></li>  
+          <li><a href="#section4">menu4</a></li>  
+          <li><a href="#section5">menu5</a></li>  
+          <li><a href="#section6">menu6</a></li>  
+          <li><a href="#section7">menu7</a></li>  
+          <li><a href="#section8">menu8</a></li>  
+        </ul>
+    
+    </div>
+
+
+    <div id = "intro">
+
+      <h1>HANMI</h1>
+      <p>열정 가득한 어쩌고입니다.</p>
+
+    </div>
+
+
+    <div id = "profile" style="display: flex;">
+       
+        <div id = "profile_info">
+
+            <div>
+
+                <h1>Hi!</h1>
+                <h3>WEB PUBLISHER</h3>
+                <br>
+                <br>
+
+            <p>안녕하세요. 뭐든지 최선을 다 하는 다재다능한 <br> 웹 퍼블리셔 전한미입니다. <br> 긍정적인 태도와 주도적인 자세로 회사내 소통하는 <br>웹 퍼블리셔가 되도록 노력하겠습니다.</p>
+        
+            </div> 
+
+            <img src="img/profile.png" alt="...">
+
+        </div>
+
+    </div>
+
+
+    <div id = "about_me">
+
+        <div id = "about_me_info">
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <h1 style="text-align: center;">About Me</h1>
+            <h5 style="text-align: center;">My information</h5>
+
+            <br>
+            <h3 style="text-align: center;">저는 저를 3가지 단어로 규정하려 합니다.</h3>
+
+            <div id = "three_topic">
+            
+            <div>
+            <div><h2>독특함</h2></div>
+            <div><h2>도전정신</h2></div>
+            <div><h2>오픈마인드</h2></div>
+            </div>
+
+            <div>
+                <button class="btn btn-primary btn-jittery" style="margin-left: 40%; margin-top: 10%;">
+                    Click Me
+                  </button>
+            </div>
+
+        </div>
+
+
+
+        </div>
+
+    </div>
+    
+    <div class="skills" id="skills">
+      <h3 class="skills-header">My Skills</h3>
+      <div class="skills-container">
+       
+
+       
+        <div class="skill-container">
+          <p>HTML</p>
+          <div class="percentage html-percentage">90%</div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+
+        <div class="skill-container">
+          <p>CSS</p>
+          <div class="percentage css-percentage">90%</div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+
+        <div class="skill-container">
+          <p>JavaScript</p>
+          <div class="percentage javascript-percentage">80%</div>
+          <div class="bar">
+            <span class="javascript"></span>
+          </div>
+        </div>
+
+        <div class="skill-container">
+          <p>React.JS</p>
+          <div class="percentage react-percentage">70%</div>
+          <div class="bar">
+            <span class="react"></span>
+          </div>
+        </div>
+
+        <div class="skill-container">
+          <p>Node.JS</p>
+          <div class="percentage node-percentage">50%</div>
+          <div class="bar">
+            <span class="node"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id = "career">
+      <h1 style="text-align: center;">My Career</h1>
+     
+    <div id = "career_boxs">
+      <div>
+        <h3>Graduate</h3>
+        <p>한국폴리텍 서울정수캠퍼스</p>
+        <p>스마트 정보통신공학과</p>
+      </div>
+      
+      <div>
+        <h3>마케팅 활동</h3>
+        <button class="btn btn-primary btn-jittery" style="margin-left: 20%; margin-top: 45%;">
+          Click Me
+        </button>
+      </div>
+
+      <div>
+       <h3> UX/UI 웹 퍼블리셔</h3>
+       <p>국비 교육</p>
+      </div>
+
+      <div>
+        <h3>Certification</h3>
+        <p>웹디자인 기능사 (필기)</p>
+        <p>SNS 마케팅 전문가 1급</p>
+
+      </div>
+
+    </div>
+
+    </div>
+
+    <div id = "portfolio">
+
+      <h1 style="text-align:center;">Portfolio</h1>
+
+      <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+
+        <div>
+          <img src="img/banksandwich.JPG" alt="...">
+        </div>
+
+        <div class = "portfolio_info">
+        <h3>BankSandwich</h3> 
+        <h4>카드 은행 페이지</h4>
+        <p>제이쿼리 SlideToggle을 이용해 보고, Scroll 이벤트를 적용한 반응형 작업을 했습니다.</p>
+
+
+        <div class = "portfolio_info_btn">
+        <button data-url="https://c0oki2.github.io/project_2/">HomePage</button>
+        <button>PDF</button>
+        </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="swiper-slide">
+        <div>
+          <img src="img/spao.JPG" alt="...">
+        </div>
+
+        <div class = "portfolio_info">
+        <h3>SPAO</h3> 
+        <h4>리액트 기반 의류 쇼핑몰</h4>
+        <p>라우터/내비/장바구니/로그인 등 다양한 페이지를 구상했습니다.</p>
+
+
+        <div class = "portfolio_info_btn">
+        <button>HomePage</button>
+        <button>PDF</button>
+        </div>
+
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+
+        <div>
+          <img src="img/kyobo.JPG" alt="...">
+        </div>
+
+        <div class = "portfolio_info">
+        <h3>Kyobo</h3> 
+        <h4>Ajax 활용한 인터넷 서점</h4>
+        <p>Ajax와 OPEN API를 이용해 책 정보를 가져 왔습니다.
+        </p>
+
+
+        <div class = "portfolio_info_btn">
+        <button>HomePage</button>
+        <button>PDF</button>
+        </div>
+
+        </div>
+
+      </div>
+
+      <div class="swiper-slide">
+
+        <div>
+          <img src="img/team_project.JPG" alt="...">
+        </div>
+
+        <div class = "portfolio_info">
+        <h3>Team Project</h3> 
+        <h4>일본 여행 정보 제공</h4>
+        <p>Scroll 이벤트와 css animation을 활용해서 부드럽게 넘기는 서브 페이지를 제작했습니다.</p>
+
+
+        <div class = "portfolio_info_btn">
+        <button>HomePage</button>
+        <button>PDF</button>
+        </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="swiper-slide">
+
+        <div>
+          <img src="img/aesop.JPG" alt="...">
+        </div>
+
+        <div class = "portfolio_info">
+        <h3>Aesop</h3> 
+        <h4>HTML/CSS 기반 생활 용품 사이트</h4>
+        <p>css와 제이쿼리를 이용해 Tab 페이지를 만들고, animation을 활용해 슬라이드를 구현했습니다.</p>
+
+
+        <div class = "portfolio_info_btn">
+        <button>HomePage</button>
+        <button>PDF</button>
+        </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+      
+
+    </div>
+
+
+    <div id = "contact">
+
+      <h1 style="text-align: center;">Contact Me</h1>
+
+    <div>
+      <div><p>전한미</p>
+      <img src="img/people.png" alt="people">
+      </div>
+
+      <div>
+        <p>전화번호</p>
+        <img src="img/phone.png" alt="people">
+        <p>010-6871-0222</p>
+      </div>
+
+      <div><p>e-mail</p>
+        <img src="img/e-mail.png" alt="people">
+        <p>12kek134@naver.com</p>
+      </div>
+      
+      
+      <div><p>카카오톡</p>
+        <img src="img/kakaotalk.png" alt="people">
+        <p>90kee</p>
+      </div>
+
+
+      <div><p>깃허브</p>
+        <img src="img/git.png" alt="people">
+        <p>https://github.com/C0oki2</p>
+      </div>
+
+      <div><p>블로그</p>
+        <img src="img/velog.png" alt="people">
+        <p>https://velog.io/</p>
+      </div>
+
+    </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
